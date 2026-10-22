@@ -9,7 +9,7 @@ function setMode(next) { mode = next; $('existing-controls').hidden = next !== '
 $('existing-mode').onclick = () => setMode('existing'); $('profile-mode').onclick = () => setMode('profile');
 function showMovies(data) {
   const target = $('movies'); target.replaceChildren(); $('result-count').textContent = `${data.recommendations.length} films`;
-  $('method').textContent = data.method + (data.userId !== undefined ? ` · User ${data.userId} · ${data.ratedCount} previous ratings` : ` · ${data.ratedCount} films you rated`);
+  $('method').textContent = data.userId !== undefined ? `User ${data.userId} · ${data.ratedCount} rated movies` : `Based on your ${data.ratedCount} ratings`;
   const table = element('table'), head = element('thead'), heading = element('tr');
   ['Movie', 'Genre', 'Score', 'Ratings', 'Average'].forEach(t => heading.append(element('th',t)));
   head.append(heading); table.append(head); const body = element('tbody');
