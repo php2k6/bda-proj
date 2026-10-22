@@ -1,0 +1,242 @@
+{
+  "ratings" : 100836,
+  "users" : 610,
+  "movies" : 9742,
+  "averageRating" : 3.501556983616962,
+  "invalidRatingsRemoved" : 0,
+  "duplicateRatingsRemoved" : 0,
+  "unknownMovieRatingsRemoved" : 0,
+  "ratingDistribution" : [ {
+    "rating" : 0.5,
+    "count" : 1370
+  }, {
+    "rating" : 1.0,
+    "count" : 2811
+  }, {
+    "rating" : 1.5,
+    "count" : 1791
+  }, {
+    "rating" : 2.0,
+    "count" : 7551
+  }, {
+    "rating" : 2.5,
+    "count" : 5550
+  }, {
+    "rating" : 3.0,
+    "count" : 20047
+  }, {
+    "rating" : 3.5,
+    "count" : 13136
+  }, {
+    "rating" : 4.0,
+    "count" : 26818
+  }, {
+    "rating" : 4.5,
+    "count" : 8551
+  }, {
+    "rating" : 5.0,
+    "count" : 13211
+  } ],
+  "genres" : [ {
+    "genre" : "Drama",
+    "count" : 4361
+  }, {
+    "genre" : "Comedy",
+    "count" : 3756
+  }, {
+    "genre" : "Thriller",
+    "count" : 1894
+  }, {
+    "genre" : "Action",
+    "count" : 1828
+  }, {
+    "genre" : "Romance",
+    "count" : 1596
+  }, {
+    "genre" : "Adventure",
+    "count" : 1263
+  }, {
+    "genre" : "Crime",
+    "count" : 1199
+  }, {
+    "genre" : "Sci-Fi",
+    "count" : 980
+  }, {
+    "genre" : "Horror",
+    "count" : 978
+  }, {
+    "genre" : "Fantasy",
+    "count" : 779
+  }, {
+    "genre" : "Children",
+    "count" : 664
+  }, {
+    "genre" : "Animation",
+    "count" : 611
+  }, {
+    "genre" : "Mystery",
+    "count" : 573
+  }, {
+    "genre" : "Documentary",
+    "count" : 440
+  }, {
+    "genre" : "War",
+    "count" : 382
+  }, {
+    "genre" : "Musical",
+    "count" : 334
+  }, {
+    "genre" : "Western",
+    "count" : 167
+  }, {
+    "genre" : "IMAX",
+    "count" : 158
+  }, {
+    "genre" : "Film-Noir",
+    "count" : 87
+  }, {
+    "genre" : "(no genres listed)",
+    "count" : 34
+  } ],
+  "ratingsByYear" : [ {
+    "year" : 1996,
+    "count" : 6040
+  }, {
+    "year" : 1997,
+    "count" : 1916
+  }, {
+    "year" : 1998,
+    "count" : 507
+  }, {
+    "year" : 1999,
+    "count" : 2439
+  }, {
+    "year" : 2000,
+    "count" : 10061
+  }, {
+    "year" : 2001,
+    "count" : 3922
+  }, {
+    "year" : 2002,
+    "count" : 3478
+  }, {
+    "year" : 2003,
+    "count" : 4014
+  }, {
+    "year" : 2004,
+    "count" : 3279
+  }, {
+    "year" : 2005,
+    "count" : 5813
+  }, {
+    "year" : 2006,
+    "count" : 4059
+  }, {
+    "year" : 2007,
+    "count" : 7114
+  }, {
+    "year" : 2008,
+    "count" : 4351
+  }, {
+    "year" : 2009,
+    "count" : 4158
+  }, {
+    "year" : 2010,
+    "count" : 2301
+  }, {
+    "year" : 2011,
+    "count" : 1690
+  }, {
+    "year" : 2012,
+    "count" : 4656
+  }, {
+    "year" : 2013,
+    "count" : 1664
+  }, {
+    "year" : 2014,
+    "count" : 1439
+  }, {
+    "year" : 2015,
+    "count" : 6616
+  }, {
+    "year" : 2016,
+    "count" : 6703
+  }, {
+    "year" : 2017,
+    "count" : 8198
+  }, {
+    "year" : 2018,
+    "count" : 6418
+  } ],
+  "mostRated" : [ {
+    "movieId" : 356,
+    "title" : "Forrest Gump (1994)",
+    "genres" : "Comedy|Drama|Romance|War",
+    "ratingCount" : 329,
+    "averageRating" : 4.164133738601824,
+    "weightedRating" : 4.076722557205404
+  }, {
+    "movieId" : 318,
+    "title" : "Shawshank Redemption, The (1994)",
+    "genres" : "Crime|Drama",
+    "ratingCount" : 317,
+    "averageRating" : 4.429022082018927,
+    "weightedRating" : 4.302664439184872
+  }, {
+    "movieId" : 296,
+    "title" : "Pulp Fiction (1994)",
+    "genres" : "Comedy|Crime|Drama|Thriller",
+    "ratingCount" : 307,
+    "averageRating" : 4.197068403908795,
+    "weightedRating" : 4.099657840842712
+  }, {
+    "movieId" : 593,
+    "title" : "Silence of the Lambs, The (1991)",
+    "genres" : "Crime|Horror|Thriller",
+    "ratingCount" : 279,
+    "averageRating" : 4.161290322580645,
+    "weightedRating" : 4.061026897206225
+  }, {
+    "movieId" : 2571,
+    "title" : "Matrix, The (1999)",
+    "genres" : "Action|Sci-Fi|Thriller",
+    "ratingCount" : 278,
+    "averageRating" : 4.192446043165468,
+    "weightedRating" : 4.087127588966
+  }, {
+    "movieId" : 260,
+    "title" : "Star Wars: Episode IV - A New Hope (1977)",
+    "genres" : "Action|Adventure|Sci-Fi",
+    "ratingCount" : 251,
+    "averageRating" : 4.231075697211155,
+    "weightedRating" : 4.109893186647335
+  }, {
+    "movieId" : 480,
+    "title" : "Jurassic Park (1993)",
+    "genres" : "Action|Adventure|Sci-Fi|Thriller",
+    "ratingCount" : 238,
+    "averageRating" : 3.75,
+    "weightedRating" : 3.7068675318779447
+  }, {
+    "movieId" : 110,
+    "title" : "Braveheart (1995)",
+    "genres" : "Action|Drama|War",
+    "ratingCount" : 237,
+    "averageRating" : 4.031645569620253,
+    "weightedRating" : 3.9392956417451153
+  }, {
+    "movieId" : 589,
+    "title" : "Terminator 2: Judgment Day (1991)",
+    "genres" : "Action|Sci-Fi",
+    "ratingCount" : 224,
+    "averageRating" : 3.970982142857143,
+    "weightedRating" : 3.8853206174483503
+  }, {
+    "movieId" : 527,
+    "title" : "Schindler's List (1993)",
+    "genres" : "Drama|War",
+    "ratingCount" : 220,
+    "averageRating" : 4.225,
+    "weightedRating" : 4.091029071040178
+  } ]
+}

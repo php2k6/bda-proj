@@ -1,0 +1,7 @@
+target/
+.tools/
+.spark-tmp/
+spark-warehouse/
+derby.log
+metastore_db/
+*.log
