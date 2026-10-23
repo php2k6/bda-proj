@@ -89,6 +89,7 @@ Each user's earliest 80% of ratings train the model. The remaining ratings test 
 | `artifacts/` | Trained model, results, JSON documents and Parquet data |
 | `report/` | Word report |
 | `docs/VIVA.md` | Short project explanation |
+| [Technical guide](docs/Movie_Project_Technical_Guide.pdf) | Structure, algorithms, APIs, setup and worked examples |
 | `sql/` | SQL queries and optional database examples |
 
 ## Limits
