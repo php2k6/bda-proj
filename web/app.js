@@ -57,7 +57,6 @@ function details(id, rows) { $(id).replaceChildren(); rows.forEach(([name,value]
 async function init() {
   try {
     const [summary,users] = await Promise.all([api('/api/summary'),api('/api/users')]), a=summary.analytics,m=summary.metrics;
-    $('stat-ratings').textContent=fmt(a.ratings); $('stat-movies').textContent=fmt(a.movies); $('stat-users').textContent=fmt(a.users);
     users.forEach(u=>{const option=element('option',`User ${u.userId} · ${u.ratingCount} ratings`);option.value=u.userId;$('user').append(option);});
     summary.genres.forEach(g=>{const option=element('option',g);option.value=g;$('genre').append(option);});
     bars('rating-bars',a.ratingDistribution,'count','rating');bars('genre-bars',a.genres.slice(0,10),'count','genre');
